@@ -9,6 +9,7 @@ def oddNumbers(start, stop):
 if __name__ == "__main__":
     import unittest
 
+    # Running test cases.
     class TestOddNumbers(unittest.TestCase):
         def test_type_error(self):
             with self.assertRaises(TypeError):
